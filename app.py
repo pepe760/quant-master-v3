@@ -20,8 +20,8 @@ app = Flask(__name__)
 # ==========================================
 # 參數設定區 (對應原本的 Colab 參數)
 # ==========================================
-LOOKBACK_YEARS = 
-MAX_TICKERS = 1 # ⚠️ 測試階段先設為 30，實際上線可改為 200
+LOOKBACK_YEARS = 1
+MAX_TICKERS = 3 # ⚠️ 測試階段先設為 30，實際上線可改為 200
 FTD_VALID_DAYS = 20
 ATR_STOP_LOSS_MULT = 2.5
 ATR_TAKE_PROFIT_MULT = 5
@@ -522,4 +522,5 @@ def home():
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
+
 
