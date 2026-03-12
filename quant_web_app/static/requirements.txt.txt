@@ -1,0 +1,10 @@
+gunicorn
+Flask==3.0.0
+yfinance
+pandas
+numpy
+matplotlib
+requests
+beautifulsoup4
+lxml
+html5lib
